@@ -74,7 +74,7 @@ public class TestWindow implements KeyListener{
 		
 		JLabel lblNewLabel_1_1 = new JLabel("");
 		lblNewLabel_1_1.setIcon(new ImageIcon(TestWindow.class.getResource("/UI/icon.png")));
-		panel.add(lblNewLabel_1_1);
+		panel.add(lblNewLabel_1_1); //Test
 		icons[2] = lblNewLabel_1_1;
 		
 		updateIcons(selectedOption);
